@@ -1,37 +1,53 @@
-# Heart-Disease-Risk-Prediction-using-EDA-and-Dashboards
+# Heart-Disease-Risk-Prediction-using-EDA, ML-and- Power BI Dashboards
 Can data predict a heart attack before it strikes? This project explores that question with the power of EDA and dashboards.
-This project focuses on the Exploratory Data Analysis (EDA) and dashboard visualization of a heart disease dataset to uncover critical health indicators related to cardiovascular risk.
+
+This project explores the application of Exploratory Data Analysis (EDA) and Machine Learning (ML) to predict heart disease risk using patient medical profiles. Using Python and Power BI, we analyzed health-related data and built an end-to-end workflow — from identifying risk indicators to training a predictive model and visualizing results.
+
 ✅ Objectives
-To explore and understand the patterns in heart disease-related data.
+Explore and understand patterns in heart disease data through EDA
 
-To identify significant features like chest pain type, maximum heart rate, and ST depression that influence heart disease risk.
+Identify key features such as chest pain type, ST depression, and max heart rate
 
-To create a Power BI dashboard that presents these insights in a clear, interactive, and stakeholder-friendly format.
+Train and evaluate a classification model to predict heart disease presence
+
+Build an interactive Power BI dashboard for presenting insights and predictions
 
 🛠️ Tools & Technologies
 Python (Jupyter Notebook)
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-Power BI for dashboard creation
+Power BI for dashboard development
 
-MS Excel for data review
+MS Excel (for quick data views)
 
-📈 Key Highlights
-Cleaned and preprocessed a real-world heart disease dataset.
+🧠 Machine Learning Pipeline
+We implemented a Logistic Regression model to predict whether a patient has heart disease (binary classification):
 
-Performed univariate, bivariate, and multivariate EDA.
+Steps included:
 
-Created visualizations including count plots, box plots, scatter plots, and correlation heatmaps.
+Preprocessing: removing duplicates, encoding categorical variables, and scaling features
 
-Developed a Power BI dashboard to interactively analyze risk by gender, age, chest pain type, and more.
+Splitting data into train and test sets (80/20)
 
-📊 Dashboard Insights
-Patients with asymptomatic chest pain types showed the highest likelihood of heart disease.
+Training a Logistic Regression classifier
 
-Lower maximum heart rate and higher ST depression (oldpeak) were linked with increased heart disease risk.
+Evaluating the model using accuracy, precision, recall, and F1-score
 
-The interactive dashboard allows filtering by features like age group and gender, enabling dynamic data exploration.
+Exporting predictions for use in the Power BI dashboard
+
+📌 Accuracy Achieved: ~85%
+📄 Exported CSV file: heart_predictions.csv (used in Power BI for visual risk segmentation)
+
+📈 Dashboard Highlights
+Risk distribution by age group, gender, and chest pain type
+
+Filters to dynamically explore health trends
+
+Pie charts, bar graphs, and numeric cards to visualize key insights
+
+Visual summary of predicted heart disease risk
+
 
 🎯 Outcome
 Built a robust EDA pipeline and translated results into a compelling dashboard.
