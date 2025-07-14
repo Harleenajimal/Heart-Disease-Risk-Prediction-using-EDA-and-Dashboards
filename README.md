@@ -3,7 +3,7 @@ Can data predict a heart attack before it strikes? This project explores that qu
 
 This project explores the application of Exploratory Data Analysis (EDA) and Machine Learning (ML) to predict heart disease risk using patient medical profiles. Using Python and Power BI, we analyzed health-related data and built an end-to-end workflow — from identifying risk indicators to training a predictive model and visualizing results.
 
-✅ Objectives
+1. Objectives
 Explore and understand patterns in heart disease data through EDA
 
 Identify key features such as chest pain type, ST depression, and max heart rate
@@ -12,7 +12,7 @@ Train and evaluate a classification model to predict heart disease presence
 
 Build an interactive Power BI dashboard for presenting insights and predictions
 
-🛠️ Tools & Technologies
+2. Tools & Technologies
 Python (Jupyter Notebook)
 
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
@@ -21,7 +21,7 @@ Power BI for dashboard development
 
 MS Excel (for quick data views)
 
-🧠 Machine Learning Pipeline
+3. Machine Learning Pipeline
 We implemented a Logistic Regression model to predict whether a patient has heart disease (binary classification):
 
 Steps included:
@@ -36,10 +36,10 @@ Evaluating the model using accuracy, precision, recall, and F1-score
 
 Exporting predictions for use in the Power BI dashboard
 
-📌 Accuracy Achieved: ~85%
-📄 Exported CSV file: heart_predictions.csv (used in Power BI for visual risk segmentation)
+4. Accuracy Achieved: ~85%
+ Exported CSV file: heart_predictions.csv (used in Power BI for visual risk segmentation)
 
-📈 Dashboard Highlights
+ Dashboard Highlights
 Risk distribution by age group, gender, and chest pain type
 
 Filters to dynamically explore health trends
@@ -49,14 +49,14 @@ Pie charts, bar graphs, and numeric cards to visualize key insights
 Visual summary of predicted heart disease risk
 
 
-🎯 Outcome
+5. Outcome
 Built a robust EDA pipeline and translated results into a compelling dashboard.
 
 Gained valuable experience in healthcare analytics, data storytelling, and real-world data handling.
 
 Laid the groundwork for future predictive modeling using machine learning techniques.
 
-💡 Interesting Insight:
+* Interesting Insight:
 
 Asymptomatic chest pain — which shows no obvious symptoms — was the most common among patients with heart disease. Data reveals what symptoms alone often can't.
 
